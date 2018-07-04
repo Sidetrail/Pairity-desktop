@@ -1,10 +1,32 @@
 {
-  "name": "electron-quick-start",
+  "name": "pairity-desktop",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A File Syncing application for phones and computers",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^8.1.2",
+    "babel-jest": "22.0.4",
+    "babel-preset-env": "^1.5.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "2.4.0",
+    "eslint-plugin-react": "^7.5.1",
+    "prettier": "^1.9.2",
+    "electron": "^2.0.0"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -15,8 +37,5 @@
     "demo"
   ],
   "author": "GitHub",
-  "license": "CC0-1.0",
-  "devDependencies": {
-    "electron": "^2.0.0"
-  }
+  "license": "CC0-1.0"
 }

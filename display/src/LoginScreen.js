@@ -15,6 +15,7 @@ class LoginScreen extends Component{
         <div>
             <input type="text" />
             <input type="password" />
+            <input type="button" value="Sign In" />
         </div>);
     }
 }
